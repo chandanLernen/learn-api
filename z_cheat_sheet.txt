@@ -1,0 +1,15 @@
+# Initialize the GIT repo:
+GO to folder/ file - > Open GIT BASH here
+git init
+
+
+# Add README file
+
+# Add gitignore file
+
+# License file 
+
+# First commit to GIT
+git add .
+git commit -am "Initial Commit"
+git push origin
