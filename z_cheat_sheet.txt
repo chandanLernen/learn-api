@@ -12,4 +12,34 @@ git init
 # First commit to GIT
 git add .
 git commit -am "Initial Commit"
-git push origin
+
+
+# Push prooject to GITHUB
+Steps: 
+# Create ssh key
+Process not sure
+
+# Create new repository in GITHUB
+git remote add origin https://#########
+git branch -M main
+git push -u origin main
+
+
+# Creating a development server
+vagrant init ubuntu/bionic64
+
+# Customize Vagrant file
+Add file data from link
+
+# step to connect vagrant server
+vagrant up
+
+# connect to server
+vagrant ssh
+
+# to move to vagrant diectory
+cd /vagrant/
+
+# To disconect
+exit
+ 
